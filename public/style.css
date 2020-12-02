@@ -50,6 +50,8 @@ button {
     width: 100%;
     height: 100%;
     overflow: auto;
+    color:whitesmoke;
+    background-color: black;
 }
 
 #output, #feedback {
@@ -66,7 +68,7 @@ button {
 }
 
 .online .users-online {
-    background-color: rgb(110, 103, 103);
+    background-color:transparent;
     color: white;
     text-align: center;
     font-size: 40px;
@@ -79,7 +81,9 @@ button {
 }
 
 .users p {
-    background-color: rgb(110, 103, 103);
+  font-size: 30px;
+
+    background-color: #000029;
     color: white;
 }
 
@@ -120,42 +124,13 @@ button {
     padding: 70px;
     border-radius: 25px;
 }
+#send, .online{
+  background-color: black;
+}
+.users-online{
+  background-color: transparent;
+}
 
-
-/* trying */
-/* html {
-    background-color: #10151B;
-    background: url(https://cdn2.vectorstock.com/i/1000x1000/77/01/chat-wallpaper-social-media-message-background-vector-30037701.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  body {
-    font-family: "Oswald", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-  }
-  
- 
-  .center {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 581px;
-    height: 50%;
-  }
-  
-  
-  
- 
-  .container{
-      background-color: whiteSmoke;
-  } */
   html { 
     background: url(https://image.freepik.com/vecteurs-libre/fond-bleu-fonce-hexagonal-scientifique-futuriste-espace-pour-texte_67515-497.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
